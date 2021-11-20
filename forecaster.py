@@ -22,7 +22,7 @@ place = st.text_input("NAME OF THE CITY :", "")
 unit = st.selectbox("SELECT TEMPERATURE UNIT :", ("Celsius", "Fahrenheit"))
 g_type = st.selectbox("SELECT GRAPH TYPE :", ("Line Graph", "Bar Graph"))
 b = st.button("SUBMIT")
-st.set_option('deprecation.showPyplotGlobalUse', False)
+# st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
 def plot_line(days, min_t, max_t):
